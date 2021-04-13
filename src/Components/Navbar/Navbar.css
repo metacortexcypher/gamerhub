@@ -1,0 +1,65 @@
+.navbar_logo{
+    width: 100px;
+    height: 70px;
+}
+
+.navbar{
+   background-color: #C2CAD0;
+   display: flex;
+   align-items: center;
+   position: sticky;
+   top: 0;
+}
+.search_component{
+    display: flex;
+    flex: 3;
+
+}
+
+.navbar_search{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 70%;
+    margin-left: 230px;
+}
+
+.navbar_searchIcon{
+    background-color: white;
+    border: none;
+    padding: 4px;
+}
+.navbar_main{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.navbar_link{
+    color: #7e685a;
+    text-decoration: none;
+}
+
+.navbar_option{
+    display: flex;
+    flex-direction: column;
+   margin-right: 20px;
+   
+}
+
+.navbar_cart{
+    display: flex;
+    color: #E7717D;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.cart_count{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    align-items: center;
+    
+}
